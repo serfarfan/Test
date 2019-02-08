@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="88">
+
+        <TextView
+            android:id="@+id/titleMovie"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_main_screen" />
+
+        <TextView
+            android:id="@+id/ratingMovie"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+
+        <TextView
+            android:id="@+id/releaseDateMovie"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgMovie"
+        android:scaleType="centerCrop"
+        android:layout_width="96dp"
+        android:layout_height="128dp"
+        android:layout_weight="12"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>
