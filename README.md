@@ -25,7 +25,7 @@ Utils que contiene el método estático q consulta el estado de la conexión a i
 
 5. Database (Persistencia)
 Esta capa está conformada por los subpaquetes:
-Async, el cuál posee la clase AppExecutors que utiliza otro thread para cceder a la BD local.
+Async, el cuál posee la clase AppExecutors que utiliza otro thread para acceder a la BD local.
 Entity, incluye las 3 entidades de la BD local: Movie, TopRatedMovie y UpComingMovie.
 A su vez contiene la clase abstracta MovieDatabase, esta es la BD.
 Y finalmente la interfaz DaoAccess que contiene los queries para acceder a la BD local.
